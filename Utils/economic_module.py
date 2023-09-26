@@ -4,7 +4,7 @@ import pandas as pd
 
 def get_economic_outlook_data(fred):
 
-    ism_inventory_data = pd.read_excel("/Users/chen-lichiang/Desktop/King's Hedge Fund Society/EM Credit Risk Modeling/Data/ISM_Data.xlsx").dropna()
+    ism_inventory_data = pd.read_excel("/Users/chen-lichiang/Desktop/King's Hedge Fund Society/U.S.-Treasury-Bill-Data-Analyst/Data/ISM_Data.xlsx").dropna()
 
     real_personal_income = fred.get_series('W875RX1').reset_index(name = 'real personal income excluding transfer')
     real_personal_consumption_expenditure = fred.get_series('PCEC96').reset_index(name = 'real personal consumption expenditure')
