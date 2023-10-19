@@ -15,8 +15,6 @@ app.layout = html.Div([
                         'margin-top' : '10px',
                         'margin-bottom': '20px'}),
 
-        "test",
-
         html.A(id = 'gh-link', 
                children = ['View on GitHub'], 
                href = "https://github.com/KenChiang1997/U.S.-Treasury-Bill-Data-Analyst", 
